@@ -1,0 +1,22 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.liseret
+{
+	background-color: #fbc531;
+}
+
+i
+{
+	color: #fbc531;
+	font-size: 15px;
+}
+
+i.fas.fa-circle
+{
+	padding-right: 20px;
+	font-size: 10px;
+
+}

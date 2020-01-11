@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="projetgit.css">
 		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+		<!-- google-fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -11,73 +14,83 @@
 		<title>CV</title>
 	</head>
 	<body>
-		<div id="wrapper">
+		<div class="container">
 			<div class="container">
-				<article class="row">
-			<div id="liseret">		
-			<div class="photo"><a href="photo.png"><img src="photo.png" alt="photo" width="150" /></a></div>
-			<div class="contact">CONTACT</div>
-			<P>Adresse<br/> 3 Rue de Montesson 95870 Bezons</P><br/>
-			<p>Téléphone<br/> <a href="tel: +33062405403"> 0762405403</a></p><br/>
-			<p>Email<br/> <a href="mailto:b.mhijiba@hotmail.fr">b.mhijiba@hotmail.fr</a></P><br/>
-			<div class="APM">A propos de moi</div>
-			<div class="presentation"> En reconversion professionnelle dans le developpement Web, je cherche à mettre en pratique mes connaissances acquisent tout au long de ma formation Developpeur Web sur OpenClassrooms. </div> <br/>
-			<div class="loisir"> Loisirs</div> <br/>
-			<div id="iconeloisir"> <div class="i1"><img src="icones/309139.svg" width="50" alt="couture"/></div>
-			<div class="i2"><img src="icones/swimmer-solid.svg" width="50" alt="lecture"/></div> </div> 
-			</div>
-			</article>
-			</div>	
+				<div class="row">
+					<div class="col-4">	
+						<div class="liseret">
+						<div class="photo"><a href="photo.png"><img src="photo.png" alt="photo" class="img-circle" width="150" /></a></div>
+						<div class="contact">CONTACT</div>
+						<P>Adresse<br/> 3 Rue de Montesson 95870 Bezons</P><br/>
+						<p>Téléphone<br/> <a href="tel: +33762405403"> 0762405403</a></p><br/>
+						<p>Email<br/> <a href="mailto:b.mhijiba@hotmail.fr">b.mhijiba@hotmail.fr</a></P><br/>
+						<div class="APM">A propos de moi</div>
+						<div class="presentation"> En reconversion professionnelle dans le developpement Web, je cherche à mettre en pratique mes connaissances acquisent tout au long de ma formation Developpeur Web sur OpenClassrooms. </div> <br/>
+						<div class="loisir"> Loisirs</div> <br/>
+						<div id="iconeloisir"> <div class="i1"><img src="icones/309139.svg" width="50" alt="couture"/></div>
+						<div class="i2"><img src="icones/swimmer-solid.svg" width="50" alt="lecture"/></div> </div> 
+						</div>
 
-			<div class="container">
-			<header class="row">
-				<div class="col-lg-6">
-				<h1><span> BADOUH</span> Mhijiba</h1>
-				<p><span> Develo</span>ppeuse Web</p></div>
-			</header>
-			</div>
-			<div class="container">
-			<section class="row">
-				<div class="col-lg-2"><i class="fas fa-graduation-cap"></i> </div>
-				<div class="col-lg-2">Formation</div>
-				<div></div>
+					</div>
+					<div class="col-8">
+						<header>
+							<h1><span> BADOUH</span> Mhijiba</h1>
+							<p><span> Develo</span>ppeuse Web</p>
+							</header>
+							<div>
+							<i class="fas fa-graduation-cap"></i>
+							<h4>FORMATION</h4></div>
+
+							<section>
+								<dl class="dl-horizontal">
+									<dt>11/2019 à ce jour</dt>
+									<dd>Formation Developeur Web</dd>
+									<dt>2004-2006</dt>
+									<dd>DECF Comptabilté gestion des entreprises</dd>
+									<dt>2002-2004</dt>
+									<dd>BTS Comptabilité gestion des entreprises</dd>
+								</dl>
+							</section>
+
+							<div>
+								<i class="fas fa-briefcase"></i>
+								<h4>EXPERIENCE</h4>
+							</div>
+							<section>
+								<dl>
+									<dt><i class="fas fa-dot-circle"></i>11-18</dt>
+									<dd>BloomofPastel / Vendeuse</dd>
+									<dt>11-07 au 04/17</dt>
+									<dd>Congès parentale</dd>
+									<dt>10-2004 au 09/2006</dt>
+									<dd>Cabinet Comptable CACL / Comptable</dd>
+								</dl>
+							</section>
+
+							<div>
+								<i class="fas fa-check-square"></i>
+								<h4>COMPETENCE</h4>
+							</div>
+
+							<section>
+								<p><i class="fas fa-circle"></i>HTML/CSS</p>
+								<p><i class="fas fa-circle"></i>Veille technologique</p>
+								
+							</section>
+
+
+						</div>
+				
+			
+			
+
 		
-			</div>
-		<ul> 
-			
-			<li>11/2019 à ce jour<p>Formation Developeur Web</p></li>
-			<li>2004-2006<p>DECF Comptabilté gestion des entreprises</p></li>
-			<li>2002-2004<p>BTS Comptabilité gestion des entreprises</p></li>
-
-		</ul>
-		</section>
-		</div>
-
-
-
-		<section class="experience">
-		<div class="icone2"> <img src="icones/briefcase-solid.svg" width="50" alt="experience">
-		<div class="ex"> Expériences </div>
-		</div>	
-		<ul> 
-			
-			<li>11-07 au 04/17 <p>Congès parentale</p></li>
-			<li>10-2004 au 09/2006 <p>Cabinet Comptable CACL / Comptable </p></li> 
-		</ul>
-		</section>
-
-		<section class="competence">
-		<div class="icone3"><img src="icones/skills.png" width="50">
-		<div class="comp">Compétences</div>
-		</div>	
-		<ul>
-			<li><p>HTML/CSS</p> </li>
-
-			<li><p>Veille technologique (certificat Openclassrooms)</p></li>
-		</ul>
-		</section>
 </div>
+
+	
 </div>
+
+
 
 
 <!-- Optional JavaScript -->
