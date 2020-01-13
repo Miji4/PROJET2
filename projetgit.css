@@ -1,12 +1,37 @@
 body
 {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
 }
 
 aside
 {
 	background-color: #fbc531;
 }
+
+
+.photo
+
+{
+	text-align: center;
+}
+
+
+.contact,.apm, .loisir
+{
+	background-color: #2f3640;
+    text-align: center;
+    color: #fbc531;
+    text-transform: uppercase;
+}
+    
+
+.adresse, .presentation
+{
+	padding-top: 20px;
+
+}
+
 
 i
 {
@@ -20,3 +45,6 @@ i.fas.fa-circle
 	font-size: 10px;
 
 }
+
+
+
