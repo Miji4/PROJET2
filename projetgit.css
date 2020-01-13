@@ -4,10 +4,20 @@ body
 	font-size: 1.5em;
 }
 
+div.container
+{
+	padding-left: 0px;
+}
+
 aside 
 {
 	background-color: #fbc531;
 	margin-right: 30px;
+}
+
+a
+{
+	color: none;
 }
 
 .photo
@@ -47,7 +57,7 @@ i.fas.fa-running, .fas.fa-biking
     border-width: 1px;
 }
 
-header
+header, .photo
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -67,16 +77,17 @@ p span
 	border-width: 1px;
 }
 
-.row
+section
 {
-	border-bottom: solid;
+	border-top: solid;
 	border-color: #fbc531;
 	border-width: 1px;
+	margin-right: 0px;
 }
 
 section.row
 {
-	border-bottom: none;
+	margin-right: 0px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -99,6 +110,12 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
     font-size: 20px;
 }
     
+.container 
+{
+	border: solid;
+    border-width: 1px;
+    border-color: #dcdde1;
+}
 
 
 
