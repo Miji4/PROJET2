@@ -1,0 +1,126 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+
+
+aside 
+{
+	background-color: #fbc531;
+	
+}
+
+
+.photo
+
+{
+	text-align: center;
+}
+
+.rounded-circle
+{
+	border: solid 1px black;
+}
+
+.contact,.apm, .loisirs
+{
+	background-color: #2f3640;
+    text-align: center;
+    color: #fbc531;
+    text-transform: uppercase;
+}
+    
+.coordonnées, .presentation
+{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.icones
+{
+	display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+i.fas.fa-running, .fas.fa-biking
+{ 
+	border-radius: 50%;
+    font-size: 39px;
+    color: black;
+    border: 50%;
+    border: solid;
+    border-width: 1px;
+}
+
+header, .photo
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+h1 span
+{
+	color: #fbc531;
+}
+
+p span
+{
+	border-bottom: solid;
+	border-color: #fbc531;
+	border-width: 1px;
+}
+
+.titre
+{
+	font-size: 15px;
+}
+
+section
+{
+	border-top: solid;
+	border-color: #fbc531;
+	border-width: 1px;
+	margin-right: 0px;
+}
+
+section.row
+{
+	margin-right: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+
+i.fas.fa-circle, .fas.fa-dot-circle
+{
+	padding-right: 20px;
+	font-size: 9px;
+	color: #fbc531;
+}
+
+i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
+{
+	margin-left: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fbc531;
+}
+    
+.container 
+{
+	border: solid;
+    border-width: 1px;
+    border-color: #dcdde1;
+}
+
+
+
+
+
