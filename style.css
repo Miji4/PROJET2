@@ -142,3 +142,8 @@ b
 {
 	font-size: 14px;
 }
+
+.mail, .tél
+{
+	color: #212529;
+}
