@@ -42,7 +42,7 @@ aside
 {
 	display: flex;
     justify-content: space-evenly;
-    padding-bottom: 25px;
+   
 }
 
 i.fas.fa-running, .fas.fa-biking
@@ -147,3 +147,4 @@ b
 {
 	color: #212529;
 }
+
