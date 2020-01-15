@@ -122,5 +122,23 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 
 
 
+.no-gutter > [class*="col-3"] 
+{
+  padding-right: 0;
+  padding-left: 0;
+}
 
+.d-flex
+{
+	    align-items: baseline;
+}
 
+.h1-custom
+{
+	font-weight: 200;
+}
+
+b
+{
+	font-size: 14px;
+}
