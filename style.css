@@ -4,7 +4,7 @@ body
 	font-size: 1.2em;
 }
 
-
+/*partie de gauche*/
 
 aside 
 {
@@ -38,6 +38,11 @@ aside
 	padding-left: 20px;
 }
 
+.mail, .tél
+{
+	color: #212529;
+}
+
 .icones
 {
 	display: flex;
@@ -50,16 +55,15 @@ i.fas.fa-running, .fas.fa-biking
 	border-radius: 50%;
     font-size: 39px;
     color: black;
-   
 }
+
+/*partie de droite*/
 
 header, .photo
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
-
 
 
 h1 span
@@ -141,8 +145,49 @@ b
 	font-size: 14px;
 }
 
-.mail, .tél
+
+
+/*responsive*/
+
+/*écran extra large (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) 
+
 {
-	color: #212529;
+
 }
+
+/*Grand écran*/
+
+@media (min-width: 992px) 
+
+{
+
+}
+
+
+/*Tablette*/
+
+@media (min-width: 768px) 
+
+{
+
+}
+
+
+
+/*Téléphone*/
+
+@media (min-width: 576px) 
+
+{
+
+}
+
+
+
+
+
+
+
 
