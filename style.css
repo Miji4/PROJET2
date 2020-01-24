@@ -102,7 +102,7 @@ section.row
 
 i.fas.fa-circle, .fas.fa-dot-circle
 {
-	padding-right: 20px;
+	
 	font-size: 9px;
 	color: #fbc531;
 }
@@ -124,7 +124,7 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 
 
 
-.no-gutter > [class*="col-3"] 
+.no-gutter > [class*="col-xs-3 col-sm-3 col-md-3 col-lg-3"] 
 {
   padding-right: 0;
   padding-left: 0;
@@ -145,17 +145,8 @@ b
 	font-size: 14px;
 }
 
-
-
 /*responsive*/
 
-/*écran extra large (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) 
-
-{
-
-}
 
 /*Grand écran*/
 
@@ -171,6 +162,16 @@ b
 @media (min-width: 768px) 
 
 {
+	
+
+
+	.mr-3
+
+	{
+		margin-right: none;
+	}
+
+
 
 }
 
@@ -181,6 +182,14 @@ b
 @media (min-width: 576px) 
 
 {
+
+	.mr-3
+
+	{
+		margin-right: none;
+	}
+
+
 
 }
 
