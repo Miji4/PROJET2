@@ -83,26 +83,20 @@ p span
 	font-size: 17px;
 }
 
-section
+.Formation, .Experience, .Compétence
 {
-	border-top: solid;
+	border-bottom: solid;
 	border-color: #fbc531;
 	border-width: 1px;
 	margin-right: 0px;
 }
 
-section.row
-{
-	margin-right: 0px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
+
 
 
 
 i.fas.fa-circle, .fas.fa-dot-circle
 {
-	
 	font-size: 9px;
 	color: #fbc531;
 }
@@ -130,10 +124,6 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
   padding-left: 0;
 }
 
-.d-flex
-{
-	    align-items: baseline;
-}
 
 .h1-custom
 {
@@ -145,53 +135,6 @@ b
 	font-size: 14px;
 }
 
-/*responsive*/
-
-
-/*Grand écran*/
-
-@media (min-width: 992px) 
-
-{
-
-}
-
-
-/*Tablette*/
-
-@media (min-width: 768px) 
-
-{
-	
-
-
-	.mr-3
-
-	{
-		margin-right: none;
-	}
-
-
-
-}
-
-
-
-/*Téléphone*/
-
-@media (min-width: 576px) 
-
-{
-
-	.mr-3
-
-	{
-		margin-right: none;
-	}
-
-
-
-}
 
 
 
