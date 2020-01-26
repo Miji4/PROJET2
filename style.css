@@ -92,13 +92,12 @@ p span
 }
 
 
-
-
-
 i.fas.fa-circle, .fas.fa-dot-circle
 {
 	font-size: 9px;
 	color: #fbc531;
+	padding-top: 10px;
+	text-align: -webkit-center;
 }
 
 i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
@@ -118,11 +117,8 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 
 
 
-.no-gutter > [class*="col-xs-3 col-sm-3 col-md-3 col-lg-3"] 
-{
-  padding-right: 0;
-  padding-left: 0;
-}
+
+
 
 
 .h1-custom
@@ -134,6 +130,11 @@ b
 {
 	font-size: 14px;
 }
+
+
+
+
+
 
 
 
