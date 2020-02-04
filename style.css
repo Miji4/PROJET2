@@ -51,12 +51,20 @@ aside
    
 }
 
-i.fas.fa-running, .fas.fa-biking
+.fas.fa-running
 { 
-	border-radius: 50%;
-    font-size: 39px;
+    font-size: 37px;
+    font-weight: 600;
     color: black;
 }
+
+.fas.fa-biking
+{
+	font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
 
 /*partie de droite*/
 
