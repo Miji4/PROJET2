@@ -9,12 +9,9 @@ body
 aside 
 {
 	background-color: #fbc531;
-	
 }
 
-
 .photo
-
 {
 	text-align: center;
 }
@@ -48,7 +45,6 @@ aside
 {
 	display: flex;
     justify-content: space-evenly;
-   
 }
 
 .fas.fa-running
@@ -56,6 +52,9 @@ aside
     font-size: 37px;
     font-weight: 600;
     color: black;
+    padding-left: 7px;
+    padding-top: 1px;
+    padding-right: 2px;
 }
 
 .fas.fa-biking
@@ -65,7 +64,6 @@ aside
     color: black;
 }
 
-
 /*partie de droite*/
 
 header, .photo
@@ -73,7 +71,6 @@ header, .photo
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
 
 h1 span
 {
@@ -99,7 +96,6 @@ p span
 	border-width: 1px;
 	margin-right: 0px;
 }
-
 
 i.fas.fa-circle, .fas.fa-dot-circle
 {
