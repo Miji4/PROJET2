@@ -87,6 +87,7 @@ p span
 .titre
 {
 	font-size: 17px;
+	font-weight: 600;
 }
 
 .formation, .experience, .competence
@@ -128,6 +129,11 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 b
 {
 	font-size: 14px;
+}
+
+li
+{
+	font-weight: 500;
 }
 
 
