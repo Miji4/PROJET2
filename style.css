@@ -102,7 +102,7 @@ p span
 
 i.fas.fa-circle
 {
-	font-size: 9px;
+	font-size: 8px;
 	color: #fbc531;
 	padding-top: 10px;
 	text-align: -webkit-center;
@@ -110,7 +110,7 @@ i.fas.fa-circle
 
 .fas.fa-dot-circle
 {
-	font-size: 9px;
+	font-size: 11px;
 	font-weight: 500;
 	color: #fbc531;
 	padding-top: 10px;
@@ -119,9 +119,8 @@ i.fas.fa-circle
 
 i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 {
-	margin-left: 15px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: #fbc531;
 }
     
@@ -141,6 +140,7 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 b
 {
 	font-size: 15px;
+	font-weight: 600;
 }
 
 li
