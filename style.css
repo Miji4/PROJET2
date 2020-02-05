@@ -27,6 +27,7 @@ aside
     text-align: center;
     color: #fbc531;
     font-weight: 450;
+    font-size: 18px;
     text-transform: uppercase;
 }
     
@@ -75,6 +76,7 @@ header, .photo
 h1 span
 {
 	color: #fbc531;
+	font-weight: 300
 }
 
 p span
@@ -86,7 +88,7 @@ p span
 
 .titre
 {
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 600;
 }
 
@@ -98,12 +100,21 @@ p span
 	margin-right: 0px;
 }
 
-i.fas.fa-circle, .fas.fa-dot-circle
+i.fas.fa-circle
 {
 	font-size: 9px;
 	color: #fbc531;
 	padding-top: 10px;
 	text-align: -webkit-center;
+}
+
+.fas.fa-dot-circle
+{
+	font-size: 9px;
+	font-weight: 500;
+	color: #fbc531;
+	padding-top: 10px;
+	text-align: -webkit-center;	
 }
 
 i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
@@ -123,17 +134,19 @@ i.fas.fa-graduation-cap, .fas.fa-briefcase, .fas.fa-check-square
 
 .h1-custom
 {
-	font-weight: 200;
+	font-weight: 250;
+	font-size: 40px;
 }
 
 b
 {
-	font-size: 14px;
+	font-size: 15px;
 }
 
 li
 {
-	font-weight: 500;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 
