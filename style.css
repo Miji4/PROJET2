@@ -1,7 +1,7 @@
 body
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 13px;
 }
 
 /*partie de gauche*/
@@ -146,10 +146,13 @@ b
 li
 {
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 13px;
 }
 
-
+col-xs ml-5
+{
+	display: none;
+}
 
 
 
